@@ -1,5 +1,6 @@
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+# actor = 내 이름을 불러오는 변수구나!
 on: [push]
 # 위에 푸쉬에는 괄호 안 해도 됨. push 할 때 다 쓴다!
 
