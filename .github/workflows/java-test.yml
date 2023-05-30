@@ -1,4 +1,5 @@
 name: Java Maven Test
+run-name: ${{ github.actor }} 의 Java Maven Test
 
 on:
   push:

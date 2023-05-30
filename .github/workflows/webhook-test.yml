@@ -1,5 +1,6 @@
 on: push
 name: Slack Notification Demo
+run-name : ${{ github.actor }} 의 Webhook
 jobs:
   slackNotification:
     name: Slack Notification

@@ -1,4 +1,5 @@
-name: Java Maven Test
+name: Java Static Code Analysis
+run-name: ${{ github.actor }} 의 Java Static Code Analysis
 
 on:
   push:
