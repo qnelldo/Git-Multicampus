@@ -22,4 +22,5 @@ jobs:
 
       - name: Deploy
         run: |
-          aws s3 cp index.html s3://github-actions-deploy-youngkyu
+            aws s3 cp index.html s3://github-actions-deploy-youngkyu
+                    
